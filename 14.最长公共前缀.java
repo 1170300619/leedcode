@@ -7,7 +7,6 @@
 // @lc code=start
 class Solution {
     public String longestCommonPrefix(String[] strs) {
-       // StringBuilder ans = new StringBuilder();
         if(strs.length == 1){
             return strs[0];
         }
